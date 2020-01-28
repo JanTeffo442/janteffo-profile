@@ -1,0 +1,48 @@
+body {
+	background:url("coding.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial;
+	color: white;
+}
+
+ div {
+	 color:black;
+ }
+ 
+ 
+ul {
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height:40px;
+	background-color: black;
+	opacity: .9;
+	line-height: 40px;
+	text-align: center;
+	list-style: none;
+	margin-right: 1px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: green;
+}
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display:block;
+}
