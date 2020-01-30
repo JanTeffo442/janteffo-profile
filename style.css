@@ -1,5 +1,6 @@
 body {
-	background:url("coding.jpg");
+	background-image:url("clouds.jpg");
+	background-color: darkcream;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: Arial;
@@ -36,7 +37,7 @@ ul li a {
 }
 
 ul li a:hover {
-	background-color: green;
+	background-color: gray;
 }
 
 ul li ul li {
@@ -45,4 +46,13 @@ ul li ul li {
 
 ul li:hover ul li {
 	display:block;
+}
+
+footer {
+	background-color: black;
+	padding: 50px;
+	margin: 8px;
+	color: white;
+	position: auto;
+	bottom: 0px;
 }
